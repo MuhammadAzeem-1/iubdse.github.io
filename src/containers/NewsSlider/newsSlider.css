@@ -1,0 +1,19 @@
+.section_newsSlider-title {
+  text-transform: capitalize;
+  margin-bottom: 3.75rem;
+  color: hsl(21, 62%, 45%);
+}
+
+.section_newsSlider-title h2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 300;
+  letter-spacing: normal;
+}
+
+.section_newsSlider-title h2 span {
+  font-size: 0.85em;
+  margin-right: 1rem;
+  font-weight: 700;
+}

@@ -1,0 +1,122 @@
+.whatGpt_container {
+  display: flex;
+  flex-direction: column;
+
+  padding: 3rem;
+  margin: 2rem 4rem;
+  border-radius: 13px;
+  background: var(--color-footer);
+
+  /* ff 3.6+ */
+  background: -moz-radial-gradient(
+    circle at 30% -100%,
+    #042c54 25%,
+    rgba(4, 44, 84, 1) 85%,
+    rgba(27, 120, 222, 1) 100%
+  );
+
+  /* safari 5.1+,chrome 10+ */
+  background: -webkit-radial-gradient(
+    circle at 30% -100%,
+    #042c54 25%,
+    rgba(4, 44, 84, 1) 85%,
+    rgba(27, 120, 222, 1) 100%
+  );
+
+  /* opera 11.10+ */
+  background: -o-radial-gradient(
+    circle at 30% -100%,
+    #042c54 25%,
+    rgba(4, 44, 84, 1) 85%,
+    rgba(27, 120, 222, 1) 100%
+  );
+
+  /* ie 10+ */
+  background: -ms-radial-gradient(
+    circle at 30% -100%,
+    #042c54 25%,
+    rgba(4, 44, 84, 1) 85%,
+    rgba(27, 120, 222, 1) 100%
+  );
+
+  /* global 92%+ browsers support */
+  background: radial-gradient(
+    circle at 30% -100%,
+    #042c54 25%,
+    rgba(4, 44, 84, 1) 85%,
+    rgba(27, 120, 222, 1) 100%
+  );
+
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.whatGpt_container-content {
+  display: flex;
+}
+
+.whatGpt_container-heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 1rem 0 2rem;
+}
+
+.whatGpt_container-heading h1 {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 25px;
+  line-height: 45px;
+  max-width: 650px;
+}
+.whatGpt_container-heading p {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 30px;
+  color: var(--color-subtext);
+}
+.whatGpt_container-gradient-text {
+  background: var(--gradient-text);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.whatGpt_container-3feachers {
+  display: flex;
+}
+@media screen and (max-width: 960px) {
+  .whatGpt_container {
+    margin: 2rem 2rem;
+  }
+}
+@media screen and (max-width: 820px) {
+  .whatGpt_container {
+    padding: 1rem;
+  }
+}
+@media screen and (max-width: 768px) {
+  .whatGpt_container {
+    padding: 1rem;
+  }
+  .whatGpt_container-3feachers {
+    display: flex;
+    flex-direction: column;
+  }
+  .whatGpt_container-heading h1 {
+    font-size: 24px;
+    line-height: 35px;
+    max-width: 625px;
+  }
+  .whatGpt_container-heading {
+    display: flex;
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 420px) {
+  .whatGpt_container {
+    margin: 1rem 1rem;
+    padding: 0.5rem;
+  }
+}
